@@ -1,0 +1,37 @@
+ h3 {
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   padding: 8px;
+ }
+
+ .email>input {
+   width: 275px;
+   height: 35px;
+   background: #f9f9f9;
+   /* border: 1px solid #e6e6e6; */
+   border-radius: 5px;
+   padding: 5px 8px;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 28px;
+   letter-spacing: 0.2px;
+   color: #737373;
+
+ }
+
+ input::placeholder {
+   padding-left: 3px;
+ }
+
+ input:focus {
+   outline: none;
+ }
+
+
+ .email>button {
+   width: 80px;
+   height: 33px;
+   margin-left: 8px;
+   background: wheat;
+   border: 1px solid #e6e6e6;
+
+ }

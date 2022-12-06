@@ -1,0 +1,42 @@
+ ul {
+     list-style: none;
+
+ }
+
+ .footer {
+     margin-top: 1.5rem;
+     background-color: black;
+     color: white;
+     height: 20vh;
+     width: 100%;
+     padding: 2.5rem 10rem 0 5rem;
+ }
+
+ .copyright>ul>li {
+
+     padding: 8px;
+     font-size: medium;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .footer-wrapper {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+
+
+
+
+
+
+
+
+
+ /* temp section */
+
+
+
+
+ /* temp section */
