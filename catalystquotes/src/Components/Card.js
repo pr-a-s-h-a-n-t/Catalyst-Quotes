@@ -22,19 +22,38 @@ function Card({ data, setSave, save }) {
       <div className="quote"> {text}</div>
 
       <div className="author-btn">
-        <button
-          className="app-btn"
-          onClick={() => {
-            setShow(!show);
-            if (show !== true) {
-              setSave((prev) => prev + 1);
-            } else {
-              setSave((prev) => prev - 1);
-            }
-          }}
-        >
-          Save
-        </button>
+        {show === false ? (
+          <button
+            className="app-btn"
+            onClick={() => {
+              setShow(!show);
+              if (show !== true) {
+                setSave((prev) => prev + 1);
+              } else {
+                setSave((prev) => prev - 1);
+              }
+            }}
+          >
+            SAVE
+             
+          </button>
+        ) : (
+          <button
+            className="app-btn"
+            onClick={() => {
+              setShow(!show);
+              if (show !== true) {
+                setSave((prev) => prev + 1);
+              } else {
+                setSave((prev) => prev - 1);
+              }
+            }}
+          >
+            UNSAVE
+            {/* <span className={`${show === false ? "block" : ""}`}>Save</span>
+             <span className={`${show === fa ? "hidden" : ""}`}>Unsave</span> */}
+          </button>
+        )}
         <div className="author">{author}</div>
       </div>
     </div>
