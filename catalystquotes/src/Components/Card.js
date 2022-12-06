@@ -12,8 +12,8 @@ function Card({ data, setSave, save }) {
     <div className="App">
       {show ? (
         <span className="saved">
-          {" "}
-          <p>saved</p>{" "}
+          
+          <p>saved</p>
         </span>
       ) : (
         ""
@@ -33,10 +33,7 @@ function Card({ data, setSave, save }) {
                 setSave((prev) => prev - 1);
               }
             }}
-          >
-            SAVE
-             
-          </button>
+          >SAVE</button>
         ) : (
           <button
             className="app-btn"
@@ -48,11 +45,7 @@ function Card({ data, setSave, save }) {
                 setSave((prev) => prev - 1);
               }
             }}
-          >
-            UNSAVE
-            {/* <span className={`${show === false ? "block" : ""}`}>Save</span>
-             <span className={`${show === fa ? "hidden" : ""}`}>Unsave</span> */}
-          </button>
+          >UNSAVE</button>
         )}
         <div className="author">{author}</div>
       </div>
