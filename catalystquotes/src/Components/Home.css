@@ -39,9 +39,9 @@
     font-size: 24px;
     margin: 5px;
     font-size: larger;
-  }
+}
 
-  .page-link{
+.page-link {
     /* border: 2px solid red; */
     height: 65px;
     overflow-y: hidden;
@@ -50,6 +50,6 @@
     align-items: center;
     padding-top: 1rem 1rem;
     margin-top: 2rem;
-    
 
-  }
+
+}
