@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Catalyst-Quotes/static/css/main.137aee95.css",
-    "main.js": "/Catalyst-Quotes/static/js/main.4bffa0e8.js",
+    "main.css": "/Catalyst-Quotes/static/css/main.18b88d3c.css",
+    "main.js": "/Catalyst-Quotes/static/js/main.dfe092ab.js",
     "index.html": "/Catalyst-Quotes/index.html",
-    "main.137aee95.css.map": "/Catalyst-Quotes/static/css/main.137aee95.css.map",
-    "main.4bffa0e8.js.map": "/Catalyst-Quotes/static/js/main.4bffa0e8.js.map"
+    "main.18b88d3c.css.map": "/Catalyst-Quotes/static/css/main.18b88d3c.css.map",
+    "main.dfe092ab.js.map": "/Catalyst-Quotes/static/js/main.dfe092ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.137aee95.css",
-    "static/js/main.4bffa0e8.js"
+    "static/css/main.18b88d3c.css",
+    "static/js/main.dfe092ab.js"
   ]
 }
