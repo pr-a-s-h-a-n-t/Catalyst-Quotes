@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navigation.css";
 
-function Navigation(props) {
+function Navigation({Save, handleChange, search , setSearch }) {
   return (
     <nav className="navigation">
       <h1>
@@ -17,22 +17,26 @@ function Navigation(props) {
           
         </ul>
       </div>
-      <div className="searchBar">
+      {/* <div className="searchBar">
         <input 
+        value={search}
         type="text"
         placeholder="Author name"
+        onChange={handleChange}
         />
-        <button
-        onClick={() => {}}
-        >Search</button>
+        <button id="btn"
+        onClick={() => {
+           setSearch("")
+        }}
+        >Clear Search</button>
 
-      </div>
+      </div> */}
 
       <h2 className="saved-container">
         <span className="saved-icon">
-          Saved {props.value ? <span>❤️</span> : <span>🤍</span>}
+          Saved { Save ? <span>❤️</span> : <span>🤍</span>}
         </span>
-        <span className="saved-count">{props.value}</span>
+        <span className="saved-count">{ Save}</span>
       </h2>
     </nav>
   );
